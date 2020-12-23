@@ -8,6 +8,7 @@ hashing algorithm, and performs the blacklist check.  The outcome/results of the
 
 Example - when running on a system monitored by defender and sentinelone
 ========================================================================
+```
 C:\Users\infected\Desktop>sentinelone_sunburst_blacklist_checker.exe
 SentinelLabs SUNBUST Blacklist Checker Version 1
 Description: This tool checks the current system for processes, services, and drivers
@@ -22,10 +23,11 @@ OUTCOME: SUNBURST will attempt to disable via the services registry key!
 DRIVERS BLACKLIST MATCH: Loaded driver SentinelMonitor.sys matches hardcoded blacklist hash 12343334044036541897
 OUTCOME: SUNBURST will exit!
 [+] Done checking loaded drivers!
-
+```
 
 Example - when running on a malware analyst machine
 ===================================================
+```
 C:\Users\REM\Desktop>sentinelone_sunburst_blacklist_checker.exe
 SentinelLabs SUNBUST Blacklist Checker Version 1
 Description: This tool checks the current system for processes, services, and drivers
@@ -41,3 +43,4 @@ OUTCOME: SUNBURST will exit!
 [+] Done checking running processes/services!
 [+] Checking loaded drivers...
 [+] Done checking loaded drivers!
+```
