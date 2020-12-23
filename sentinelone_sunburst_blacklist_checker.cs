@@ -259,7 +259,7 @@ namespace SentinelLabs
 		}
 
 		private static bool is_blacklisted_process(ulong process_hash)
-        {
+		{
 			if (Array.IndexOf<ulong>(hashes_processes, process_hash) != -1)
 			{
 				return true; 
@@ -268,7 +268,7 @@ namespace SentinelLabs
 		}
 
 		private static bool will_disable_service(ulong service_hash)
-        {
+		{
 			if (Array.IndexOf<ulong>(hashes_services, service_hash) != -1)
 			{
 				return true;
@@ -277,7 +277,7 @@ namespace SentinelLabs
 		}
 
 		private static List<KeyValuePair<ulong, string>> get_blacklisted_drivers()
-        {
+		{
 			List<KeyValuePair<ulong, string>> blacklisted_drivers_found = new List<KeyValuePair<ulong, string>>();
 			using (ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher("Select * From Win32_SystemDriver"))
 			{
@@ -295,7 +295,7 @@ namespace SentinelLabs
 		}
 
 		private static void run_processes_check()
-        {
+		{
 			Console.WriteLine("[+] Checking running processes/services...");
 			Process[] processes = Process.GetProcesses();
 			for (int i = 0; i < processes.Length; i++)
@@ -317,7 +317,7 @@ namespace SentinelLabs
 		}
 
 		private static void run_drivers_check()
-        {
+		{
 			Console.WriteLine("[+] Checking loaded drivers...");
 			List<KeyValuePair<ulong, string>> blacklisted_drivers = get_blacklisted_drivers();
 			if (blacklisted_drivers.Count > 0)
@@ -332,10 +332,10 @@ namespace SentinelLabs
 		}
 
 		private static void print_message()
-        {
+		{
 			Console.WriteLine("SentinelLabs SUNBUST Blacklist Checker Version 1");
 			Console.WriteLine("Description: This tool checks the current system for processes, services, and drivers\nthat SUNBURST attempts to identify in its blacklist, prints the match, as well as the outcome.\n");
-        }
+		}
 
 		static void Main(string[] args)
 		{
