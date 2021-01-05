@@ -262,7 +262,7 @@ namespace SentinelLabs
 		{
 			if (Array.IndexOf<ulong>(hashes_processes, process_hash) != -1)
 			{
-				return true; 
+				return true;
 			}
 			return false;
 		}
@@ -333,7 +333,7 @@ namespace SentinelLabs
 
 		private static void print_message()
 		{
-			Console.WriteLine("SentinelLabs SUNBUST Blacklist Checker Version 1");
+			Console.WriteLine("SentinelLabs SUNBUST Assessment Tool Version 2");
 			Console.WriteLine("Description: This tool checks the current system for processes, services, and drivers\nthat SUNBURST attempts to identify in its blacklist, prints the match, as well as the outcome.\n");
 		}
 
