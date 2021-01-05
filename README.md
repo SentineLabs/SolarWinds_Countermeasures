@@ -6,6 +6,7 @@ This tool leverages the same logic SUNBURST uses to obtain a list of running pro
 hashing algorithm, and performs the blacklist check.  The outcome/results of the blacklist check are then printed to the console.
 
 Version 1 SHA1: 848b903a0f67f8fd71152b2b73a010fba547038c
+
 Version 2 SHA1: d4910eaf5620528905b371c9a91fa5e3467978be
 
 Example - when running on a system monitored by SentinelOne
