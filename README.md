@@ -9,6 +9,8 @@ Version 1 SHA1: 848b903a0f67f8fd71152b2b73a010fba547038c
 
 Version 2 SHA1: d4910eaf5620528905b371c9a91fa5e3467978be
 
+Version 3 SHA1: 37dc0e94a06257e91b041341f08dc435fe69d772
+
 Example - when running on a system monitored by SentinelOne
 ===========================================================
 ```
