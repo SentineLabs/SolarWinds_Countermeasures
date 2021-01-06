@@ -15,7 +15,7 @@ Example - when running on a system monitored by SentinelOne
 ===========================================================
 ```
 C:\Users\infected\Desktop>S1_SUNBURST_Assessment.exe
-SentinelLabs SUNBUST Assessment Tool Version 2
+SentinelLabs SUNBURST Assessment Tool Version 2
 Description: This tool checks the current system for processes, services, and drivers
 that SUNBURST attempts to identify in its blacklist, prints the match, as well as the outcome.
 
@@ -32,7 +32,7 @@ Example - when running on a malware analyst machine
 ===================================================
 ```
 C:\Users\REM\Desktop>S1_SUNBURST_Assessment.exe
-SentinelLabs SUNBUST Assessment Tool Version 2
+SentinelLabs SUNBURST Assessment Tool Version 2
 Description: This tool checks the current system for processes, services, and drivers
 that SUNBURST attempts to identify in its blacklist, prints the match, as well as the outcome.
 
